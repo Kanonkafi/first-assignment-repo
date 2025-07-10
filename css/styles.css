@@ -61,3 +61,44 @@
     height: 35px;
     width: 110px;
 }
+
+/* action section jehutu eta pura jaiga nai nai tai max width use korbo*/
+.action-content{
+    max-width: 1140px;
+    /* margin-top: 20px; */
+     margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.action-greting{
+    color: #252432;
+    font-weight: bold; 
+    font-size: 42px;
+
+}
+.action-description{
+    font-family: 'Raleway' ,sans-serif;
+    color: #252432;
+    font-weight:400px; 
+    font-size: 15px;
+    margin-top: -25px;
+}
+
+.action-btn{
+   background-color: #4E47FF;
+    border:none;
+    border-radius: 10px;
+    height: 35px;
+    /* width: 110px; */
+    color: #FFFFFF;
+    white-space: nowrap;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.action-pic{
+    height: 324px;
+    width: 403px;
+    border-radius: 30px;
+    object-fit: cover;
+}
