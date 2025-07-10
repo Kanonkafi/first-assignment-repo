@@ -102,3 +102,46 @@
     border-radius: 30px;
     object-fit: cover;
 }
+/* production section */
+.production{
+    /* max-width: 1140px; */
+    /* margin-top: 20px; */
+     margin: 50px auto;
+
+     border-radius: 25px; 
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 910px;
+    height: 200px;
+    
+   
+}
+.production-users{
+     display: flex;
+    justify-content: space-around;
+    
+}
+.production-viewer{
+       color: #4E47FF;
+       font-weight: bold;
+       font-size: 52px;
+        margin-top: -12px;
+}
+
+.production-title{
+    color: #252432;
+    font-weight: bold;
+    font-size: 34px;
+    
+    
+}
+.production-description{
+   color: #000000;
+   font-size: 10px;
+   font-weight: bold;
+   margin-top: -50px;
+   
+}
+.prdtn-bg{
+    background-color:oklab(96.513% 0.0013 0.00306) ;
+}
