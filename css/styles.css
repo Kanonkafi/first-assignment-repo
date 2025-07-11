@@ -31,13 +31,17 @@
     background-color: #4E47FF;
     border:none;
     border-radius: 10px;
-      
-     
-     height: 35px;
-     width: 110px;
+    height: 35px;
+    width: 110px;
      /* padding: 18px 35px;  */
+     cursor: pointer;
+     transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1);
 
 
+}
+
+.signup-btn:hover{
+     background-color: aquamarine;
 }
 .secondary-bg{
     background-image: url('../images/Hero-bg.png');
@@ -60,7 +64,14 @@
     border-radius: 10px;
     height: 35px;
     width: 110px;
+    cursor: pointer;
+     transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1);
+
 }
+.focus-btn:hover{
+     background-color: aquamarine;
+}
+
 
 /* action section jehutu eta pura jaiga nai nai tai max width use korbo*/
 .action-content{
@@ -95,6 +106,12 @@
     width: auto;
     padding: 10px 20px;
     font-size: 16px;
+    cursor: pointer;
+     transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.action-btn:hover{
+      background-color: aquamarine;
 }
 .action-pic{
     height: 324px;
@@ -149,58 +166,93 @@
 /* newsletter sectin */
 
 .newsletter{
-     padding: 130px 230px;
-      display: flex;
-      gap: 200px; */
-     margin-left: 70px;  
+    
+     display: flex;
+     justify-content:center;
+     align-items:flex start;
+     background-color:rgba(0,123,255,0.05);
+     padding: 50px 0;
+     gap:50px;
+
 
       
 }
+/* nutun */
+.newsletter-column-form{
+     display: flex;
+     flex-direction: column;
+     gap: 14px;
+     width: 300px; 
+     margin-left: 150px;
+}
+
 .newsletter-column{
-        width: 75%;
+        /* width: 75%; */
+        /* nutun */
+        flex: 1;
+       
         
 
 }
 .newsletter-title{
- text-align: center;
- padding: 40px 20px;
+  text-align: center;
+ padding-left: 40px;
+ text-align: right;
+ /* padding-bottom: 40px;  */
 
 }
  h3{
-    font-size: 50px;
+     font-size: 40px;
     font-weight: bold;
     color: #000000;
+    
+ 
 }
-.newsletter-column input[type="email"],.newsletter-column  input[type="text"],.newsletter-column textarea{
-     /* height: 64px;  */
-    border-radius: 5px;
-    background-color: white;
-    display: block;
-     width: 40%;
-    padding: 10px 40px;
-    margin-bottom: 24px;
-    border: none;
 
+
+/* nutun */
+
+.newsletter-column-form input,.newsletter-column-form textarea{
+padding: 10px;
+border: none;
+border-radius:6px ;
+font-size: 14px;
+width: 100%;
 }
 .get-btn{
 
      background-color: #4E47FF;
-    border:none;
-    border-radius: 10px;
-    height: 35px;
-    /* width: 110px; */
-    color: #FFFFFF;
+     color: #FFFFFF;
     white-space: nowrap;
-    /* width: auto; */
-    padding: 10px 20px;
     font-size: 16px;
-    width: 62%;
+    cursor: pointer;
+     transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* nutun */
+     border: none;
+     padding: 10px;
+     border-radius: 6px;
+      width: 100%; 
+     
+    
+     
 }
+.get-btn:hover{
+  background-color: aquamarine;
+}
+
+/* nutun */
+
+.newsletter-column-form textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+
 
 /* fotter */
 .foot{
    /* border-radius: 10px; */
-    padding: 130px 150px ;
+     padding: 80px 50px ; 
     text-align: center;
 }
 .foot-title{
@@ -269,9 +321,9 @@ gap: 16px;
     }
 
     .card {
-      background-color: #ffffffcc; /* হালকা হোয়াইট */
+      background-color: #ffffffcc; /*  */
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* হাইলাইট */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /*  */
       padding: 20px;
       width: 280px;
       /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
@@ -325,3 +377,5 @@ gap: 16px;
       font-size: 13px;
       color: #666;
     }
+
+    /* button hover */
