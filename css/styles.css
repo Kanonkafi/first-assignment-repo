@@ -145,3 +145,54 @@
 .prdtn-bg{
     background-color:oklab(96.513% 0.0013 0.00306) ;
 }
+
+/* newsletter sectin */
+
+.newsletter{
+     padding: 130px 230px;
+      display: flex;
+      gap: 200px; */
+     margin-left: 70px;  
+
+      
+}
+.newsletter-column{
+        width: 75%;
+        
+
+}
+.newsletter-title{
+ text-align: center;
+ padding: 40px 20px;
+
+}
+ h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.newsletter-column input[type="email"],.newsletter-column  input[type="text"],.newsletter-column textarea{
+     /* height: 64px;  */
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+     width: 40%;
+    padding: 10px 40px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+.get-btn{
+
+     background-color: #4E47FF;
+    border:none;
+    border-radius: 10px;
+    height: 35px;
+    /* width: 110px; */
+    color: #FFFFFF;
+    white-space: nowrap;
+    /* width: auto; */
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 62%;
+}
